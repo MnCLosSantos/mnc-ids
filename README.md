@@ -1,17 +1,17 @@
-# 🪪 ID Checking System
+# 📦 ID Checking System
 
 A simple and lightweight **FiveM ID Checking System** that allows players to temporarily display their server IDs and notify nearby players when IDs are being checked.  
 Built for **QBCore/Standalone** with a clean UI and configurable settings.
 
 ---
 
-## 📦 Resource Info
+## Resource Info
 
 - **Author**: Stan Leigh  
 - **Description**: ID checking system for FiveM  
 - **Version**: `1.1.0`  
-- **Framework**: Standalone / QBCore compatible  
-- **Game**: GTA V  
+- **Framework**: Standalone  
+- **Game**: FiveM
 
 ---
 
@@ -68,31 +68,6 @@ local config = {
 
 ---
 
-## 📜 Manifest Example
-
-```lua
-fx_version 'cerulean'
-game 'gta5'
-lua54 'yes'
-
-author 'Stan Leigh'
-description 'Id checking system.'
-version '1.1.0'
-
-client_script "client.lua"
-server_script "server.lua"
-
-ui_page "html/index.html"
-
-files {
-    "html/index.html",
-    "html/style.css",
-    "html/script.js"
-}
-```
-
----
-
 ## 🛠️ Commands & Usage
 
 - Press **Z** (or your chosen key) to check IDs.  
@@ -101,12 +76,12 @@ files {
 
 ---
 
-## 📸 Screenshots (Optional)
+## 📜 License
 
-> Add UI/gameplay screenshots here for a better GitHub presentation.
+MIT.  
 
 ---
 
-## 📜 License
+## 🛠️ Support
 
-This resource is open-source and free to use. Attribution is appreciated.  
+- Discord: ***https://discord.gg/aTBsSZe5C6***  
